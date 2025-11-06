@@ -79,4 +79,10 @@ public class ProductoService {
     public List<Producto> consultaSQL(double precioInf, double precioSup) {
         return productoRepository.consultaSQL(precioInf, precioSup);
     }
-}
+
+    @Transactional(readOnly = true) 
+    public List<Producto> consultaTarea(String articuloBuscado) {
+        return productoRepository.findByDescripcionContaining(articuloBuscado);
+    }
+
+    }
