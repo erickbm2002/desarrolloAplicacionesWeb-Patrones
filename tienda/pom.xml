@@ -27,9 +27,14 @@
         <url/>
     </scm>
     <properties>
+<<<<<<< HEAD
         <java.version>24</java.version>
     </properties>
     
+=======
+        <java.version>21</java.version>
+    </properties>
+>>>>>>> 766747868459b17d55c7e8e5a2c05ab0867d6023
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -113,10 +118,13 @@
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity6</artifactId>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
+=======
+>>>>>>> 766747868459b17d55c7e8e5a2c05ab0867d6023
     </dependencies>
 
     <build>
